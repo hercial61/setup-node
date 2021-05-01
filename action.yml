@@ -28,3 +28,5 @@ inputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
+- name: Setup Node.js environment
+  uses: actions/setup-node@v2.1.5
